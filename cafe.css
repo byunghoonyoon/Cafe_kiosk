@@ -1,0 +1,58 @@
+/* lib */
+body {
+  text-align: center;
+  height: 700vh;
+}
+img {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+div {
+  height: calc(100% / 5);
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 28px;
+}
+ul > li {
+  text-align: center;
+  height: 400px;
+}
+li > a {
+  display: block;
+}
+li > a:first-child {
+  height: calc(100% - 32px * 2);
+}
+li > a:first-child > img {
+  height: 100%;
+}
+li > a:last-child,
+li > a:nth-last-child(2) {
+  height: 32px;
+}
+li > a:nth-last-child(2) {
+  margin-top: 10px;
+  font-weight: bold;
+}
+ul {
+  background-color: rgb(234, 199, 132);
+  scroll-margin-top: 28px;
+  border: 2px solid rgb(209, 81, 45);
+}
+.con {
+  max-width: 1000px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: rgb(164, 126, 59);
+}
+.con > a {
+  width: 150px;
+  border: 3px rgb(222, 182, 171) solid;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0px 8px;
+}
